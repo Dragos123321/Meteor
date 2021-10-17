@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B2EF60C-A742-1EBE-70C4-C11DDC971AEF}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Chess</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>bin\Debug\Chess\windows x86_64\</OutDir>
+    <IntDir>bin-int\Debug\Chess\windows x86_64\</IntDir>
+    <TargetName>Chess</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>bin\Release\Chess\windows x86_64\</OutDir>
+    <IntDir>bin-int\Release\Chess\windows x86_64\</IntDir>
+    <TargetName>Chess</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\meteor\include;..\meteor\include\vendor;..\Chess\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\meteor\include;..\meteor\include\vendor;..\Chess\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Chess\src\app.h" />
+    <ClInclude Include="..\Chess\src\bishop.h" />
+    <ClInclude Include="..\Chess\src\board.h" />
+    <ClInclude Include="..\Chess\src\camera.h" />
+    <ClInclude Include="..\Chess\src\consts.h" />
+    <ClInclude Include="..\Chess\src\game.h" />
+    <ClInclude Include="..\Chess\src\king.h" />
+    <ClInclude Include="..\Chess\src\knight.h" />
+    <ClInclude Include="..\Chess\src\pawn.h" />
+    <ClInclude Include="..\Chess\src\piece.h" />
+    <ClInclude Include="..\Chess\src\piece_manager.h" />
+    <ClInclude Include="..\Chess\src\player.h" />
+    <ClInclude Include="..\Chess\src\queen.h" />
+    <ClInclude Include="..\Chess\src\renderer.h" />
+    <ClInclude Include="..\Chess\src\rook.h" />
+    <ClInclude Include="..\Chess\src\scene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Chess\src\app.cpp" />
+    <ClCompile Include="..\Chess\src\bishop.cpp" />
+    <ClCompile Include="..\Chess\src\board.cpp" />
+    <ClCompile Include="..\Chess\src\camera.cpp" />
+    <ClCompile Include="..\Chess\src\game.cpp" />
+    <ClCompile Include="..\Chess\src\king.cpp" />
+    <ClCompile Include="..\Chess\src\knight.cpp" />
+    <ClCompile Include="..\Chess\src\main.cpp" />
+    <ClCompile Include="..\Chess\src\pawn.cpp" />
+    <ClCompile Include="..\Chess\src\piece.cpp" />
+    <ClCompile Include="..\Chess\src\piece_manager.cpp" />
+    <ClCompile Include="..\Chess\src\player.cpp" />
+    <ClCompile Include="..\Chess\src\queen.cpp" />
+    <ClCompile Include="..\Chess\src\renderer.cpp" />
+    <ClCompile Include="..\Chess\src\rook.cpp" />
+    <ClCompile Include="..\Chess\src\scene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Meteor.vcxproj">
+      <Project>{7140E1C2-5DE2-0B99-469D-1FED32DE92E9}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

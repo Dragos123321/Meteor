@@ -1,0 +1,90 @@
+﻿  bishop.cpp
+  board.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(25,33): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(26,104): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(26,72): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(36,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(37,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(38,48): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(63,33): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(64,104): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(64,72): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(74,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(75,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(76,48): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+D:\Dragos\Work\Games\Meteor\Chess\src\board.cpp(92,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  app.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+D:\Dragos\Work\Games\Meteor\Chess\src\app.cpp(511,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Dragos\Work\Games\Meteor\Chess\src\app.cpp(524,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  camera.cpp
+  game.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+D:\Dragos\Work\Games\Meteor\Chess\src\game.cpp(234,83): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Dragos\Work\Games\Meteor\Chess\src\game.cpp(234,50): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  king.cpp
+  knight.cpp
+  main.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  pawn.cpp
+  piece.cpp
+  piece_manager.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  player.cpp
+  queen.cpp
+  renderer.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  rook.cpp
+  scene.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  Generating Code...
+D:\Dragos\Work\Games\Meteor\Chess\src\camera.cpp(159): warning C4172: returning address of local variable or temporary: pos
+D:\Dragos\Work\Games\Meteor\Chess\src\camera.cpp(173): warning C4172: returning address of local variable or temporary: pos
+D:\Dragos\Work\Games\Meteor\Chess\src\camera.cpp(133): warning C4172: returning address of local variable or temporary: m_view_matrix

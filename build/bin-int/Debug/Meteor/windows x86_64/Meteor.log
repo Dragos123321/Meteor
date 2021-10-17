@@ -1,0 +1,69 @@
+﻿  audio_buffer.cpp
+  mesh.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  model.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  model_loader.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  binding_data.cpp
+  drawing.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  framebuffer.cpp
+  vertex_array.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  vertex_layout.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  cubemap_renderer.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  gui_renderer.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  gui_shape_renderer.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  gui_text_renderer.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  point_light_renderer.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  shape_renderer_2d.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  texture_renderer_2d.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  text.cpp
+  label.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  panel.cpp
+  widget.cpp
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(231,26): error C3615: constexpr function 'mtr::gl::VertexLayout::VertexLayout' cannot result in a constant expression
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : failure was caused by call of undefined function or one not declared 'constexpr'
+D:\Dragos\Work\Games\Meteor\meteor\include\meteor\graphics\opengl\vertex_layout.h(233,2): message : see usage of 'std::vector<mtr::gl::VertexAttribute,std::allocator<mtr::gl::VertexAttribute>>::vector'
+  Generating Code...
+  Compiling...
+  format.cc
+  Generating Code...

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7140E1C2-5DE2-0B99-469D-1FED32DE92E9}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Meteor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>bin\Debug\Meteor\windows x86_64\</OutDir>
+    <IntDir>bin-int\Debug\Meteor\windows x86_64\</IntDir>
+    <TargetName>Meteor</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>bin\Release\Meteor\windows x86_64\</OutDir>
+    <IntDir>bin-int\Release\Meteor\windows x86_64\</IntDir>
+    <TargetName>Meteor</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\meteor\include;..\meteor\include\vendor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>assimp.lib;glfw3.lib;OpenAL32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\meteor\include;..\meteor\include\vendor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>assimp.lib;glfw3.lib;OpenAL32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\meteor\include\meteor\audio\audio.h" />
+    <ClInclude Include="..\meteor\include\meteor\audio\audio_buffer.h" />
+    <ClInclude Include="..\meteor\include\meteor\audio\audio_data.h" />
+    <ClInclude Include="..\meteor\include\meteor\audio\audio_decoder.h" />
+    <ClInclude Include="..\meteor\include\meteor\audio\audio_engine.h" />
+    <ClInclude Include="..\meteor\include\meteor\audio\audio_source.h" />
+    <ClInclude Include="..\meteor\include\meteor\audio\audio_stream.h" />
+    <ClInclude Include="..\meteor\include\meteor\audio\openal.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\application.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\benchmark.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\config.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\copy_on_write.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\errors.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\fps_limiter.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\glfw.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\non_copyable.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\thread_pool.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\utils.h" />
+    <ClInclude Include="..\meteor\include\meteor\core\window.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\camera_2d.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\camera_3d.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\color.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\directional_light.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\image.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\mesh.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\model.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\model_loader.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\binding_data.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\buffer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\context.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\cubemap_texture.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\drawing.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\framebuffer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\index_buffer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\opengl.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\program.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\render_settings.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\renderbuffer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\shader.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\shader_sources.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\texture.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\texture_2d.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\vertex_array.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\vertex_buffer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\opengl\vertex_layout.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\point_light.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\renderers\cubemap_renderer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\renderers\gui_renderer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\renderers\gui_shape_renderer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\renderers\gui_text_renderer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\renderers\point_light_renderer.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\renderers\shape_renderer_2d.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\renderers\texture_renderer_2d.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\spot_light.h" />
+    <ClInclude Include="..\meteor\include\meteor\graphics\text.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\button.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\font.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\grid_panel.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\grid_style.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\gui.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\label.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\padding.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\panel.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\text_style.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\widget.h" />
+    <ClInclude Include="..\meteor\include\meteor\gui\widget_style.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\button_event.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\close_request_event.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\event_variant.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\input.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\input_axis.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\key_code.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\key_event.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\modifiers.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\mouse_button.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\mouse_event.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\resize_event.h" />
+    <ClInclude Include="..\meteor\include\meteor\input\scroll_event.h" />
+    <ClInclude Include="..\meteor\include\meteor\math\circle.h" />
+    <ClInclude Include="..\meteor\include\meteor\math\math.h" />
+    <ClInclude Include="..\meteor\include\meteor\math\rect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\meteor\src\meteor\audio\audio_buffer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\audio\audio_data.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\audio\audio_decoder.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\audio\audio_engine.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\audio\audio_source.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\audio\audio_stream.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\audio\openal.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\application.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\benchmark.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\config.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\errors.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\fps_limiter.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\glfw.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\thread_pool.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\utils.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\core\window.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\camera_2d.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\camera_3d.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\image.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\mesh.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\model.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\model_loader.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\binding_data.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\buffer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\context.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\cubemap_texture.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\drawing.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\framebuffer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\index_buffer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\program.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\render_settings.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\renderbuffer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\shader.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\shader_sources.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\texture_2d.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\vertex_array.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\opengl\vertex_layout.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\renderers\cubemap_renderer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\renderers\gui_renderer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\renderers\gui_shape_renderer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\renderers\gui_text_renderer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\renderers\point_light_renderer.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\renderers\shape_renderer_2d.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\renderers\texture_renderer_2d.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\graphics\text.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\gui\button.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\gui\font.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\gui\grid_panel.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\gui\label.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\gui\panel.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\gui\widget.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\input\button_event.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\input\input_axis.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\input\key_event.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\input\modifiers.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\input\mouse_event.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\input\resize_event.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\input\scroll_event.cpp" />
+    <ClCompile Include="..\meteor\src\meteor\math\math.cpp" />
+    <ClCompile Include="..\meteor\src\vendor\fmt\format.cc" />
+    <ClCompile Include="..\meteor\src\vendor\fmt\posix.cc" />
+    <ClCompile Include="..\meteor\src\vendor\glad\glad.c" />
+    <ClCompile Include="..\meteor\src\vendor\stb\stb_image.c" />
+    <ClCompile Include="..\meteor\src\vendor\stb\stb_vorbis.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

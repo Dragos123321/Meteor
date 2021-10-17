@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Chess\src\app.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\bishop.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\board.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\consts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\king.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\knight.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\pawn.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\piece.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\piece_manager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\queen.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\renderer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\rook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Chess\src\scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Chess\src\app.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\bishop.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\board.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\camera.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\king.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\knight.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\pawn.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\piece.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\piece_manager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\player.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\queen.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\renderer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\rook.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Chess\src\scene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

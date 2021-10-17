@@ -1,0 +1,2 @@
+D:\Dragos\Work\Games\Meteor\build\bin\Debug\Meteor\windows x86_64\Meteor.pdb
+D:\Dragos\Work\Games\Meteor\build\bin-int\Debug\Meteor\windows x86_64\Meteor.pdb

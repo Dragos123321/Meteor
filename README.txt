@@ -1,3 +1,1 @@
-:p
-
-Lechintan Tudor for © LTTD Games
+Lechintan Tudor and Tatar Dragos for © LTTD Games
